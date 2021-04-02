@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: teal;
+}
+.mainDiv{
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px dimgrey;
+    padding: 20px;
+    background-color: white;
+}
+.mainDiv p{
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+}
+.mainDiv button{
+    background-color: darkcyan;
+    border: 0;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+    outline: none;
+}
+.mainDiv button:hover{
+    background-color: teal;
+}
+.mainDiv button:active{
+    background-color: darkcyan;
+}
+.mainDiv button:first-of-type{
+    border-radius: 10px 0 0 10px;
+}
+.mainDiv button:last-of-type{
+    border-radius: 0 10px 10px 0;
+}

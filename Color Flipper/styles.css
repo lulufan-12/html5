@@ -1,0 +1,22 @@
+/*
+    É muito importante definir o tamanho do body para
+    então centralizar seus filhos na página
+*/
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainDiv{
+    opacity: 0.7;
+    height: auto;
+    border-radius: 20px;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
