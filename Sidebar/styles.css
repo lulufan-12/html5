@@ -1,0 +1,62 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: beige;
+    transition: all 0.3s linear;
+    transform: translateX(-300px);
+}
+.logo-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.logo-destaque{
+    color: cadetblue;
+}
+nav{
+    margin-top: 25px;
+}
+.nav-item{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.nav-item a{
+    text-decoration: none;
+    color: #666;
+}
+.nav-item a:hover{
+    text-decoration: underline;
+}
+.nav-footer{
+    position: absolute;
+    width: 260px;
+    text-align: center;
+    bottom: 28px;
+    font-size: 34px;
+}
+.fa-times:hover{
+    cursor: pointer;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-facebook{
+    color: royalblue;
+}
+.fa-instagram{
+    color:sandybrown;
+}
+.fa-twitter{
+    color: skyblue;
+}
