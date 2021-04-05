@@ -24,7 +24,6 @@ FAQ.forEach(value => {
     `
     wrapper.innerHTML += element    
 })
-
 wrapper.onclick = e => {
     e.target.classList.toggle("hide")
 }

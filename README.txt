@@ -1,0 +1,1 @@
+Esse repositório tem o simples intuito de guardar pequenos projetos de Javascript puro para compartilhar com interessados.
